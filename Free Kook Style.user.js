@@ -20,8 +20,8 @@
         settings = JSON.parse(window.localStorage["free-kook-style"]);
     } else {
         settings = {
-            "on": true,
-            "url": "https://pxinz.github.io/Kook-Styles/styles/test-style.css"
+            "on": false,
+            "url": ""
         }
         saveSettings()
     }
